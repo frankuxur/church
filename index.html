@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Church</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./resources/css/style.css" />
+
+    <!-- Remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header__container container">
+        <div class="brand-logo">
+          <h1>St. Mary's Cathedral</h1>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="./dashboard.html">dashboard</a></li>
+            <li class="nav__item nav__modal-open">notice</li>
+            <li class="nav__item nav__modal-open">upcoming events</li>
+            <li class="nav__item nav__modal-open">mass intentions</li>
+            <li class="nav__item">
+              <button class="nav__login">login</button>
+            </li>
+            <!-- <li class="nav__item">
+              <button class="nav__register">register</button>
+            </li> -->
+          </ul>
+
+          <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+          </div>
+
+          <div class="nav__modals" id="notice-modal">
+            <div class="nav__modal">
+              <p>Notice</p>
+
+              <i class="ri-close-line nav__modal-close"></i>
+
+              <div class="nav__modal-body">
+                <div>
+                  <p>1</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>2</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Veritatis, eius.
+                  </p>
+                </div>
+                <div>
+                  <p>3</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>4</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>5</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>6</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>7</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav__modal" id="events-modal">
+              <p>Upcoming Events</p>
+
+              <i class="ri-close-line nav__modal-close"></i>
+
+              <div class="nav__modal-body">
+                <div>
+                  <p>1</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>2</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Veritatis, eius.
+                  </p>
+                </div>
+                <div>
+                  <p>3</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav__modal" id="intention-modal">
+              <p>Mass Intentions</p>
+
+              <p class="intention-modal__date"><span>Dated</span> 09/11/2022</p>
+
+              <i class="ri-close-line nav__modal-close"></i>
+
+              <div class="nav__modal-body">
+                <div>
+                  <p>1</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>2</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Veritatis, eius.
+                  </p>
+                </div>
+                <div>
+                  <p>3</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>4</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>5</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+                <div>
+                  <p>6</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veniam ipsam est impedit!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main_01 -->
+    <main id="main">
+      <div class="main__container container">
+        <div class="main__left">
+          <img
+            src="./resources/images/stmarys.JPG"
+            alt=""
+            class="main__left-img"
+          />
+        </div>
+        <div class="main__right">
+          <h1 class="section__title">St. Mary's Cathedral</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            recusandae delectus veritatis consectetur asperiores incidunt
+            corporis esse atque obcaecati accusamus.
+          </p>
+          <button class="main__login-btn"></button>
+        </div>
+      </div>
+    </main>
+    <!-- https://images.unsplash.com/photo-1515162305285-0293e4767cc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2h1cmNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 -->
+
+    <!-- Main_02 -->
+    <!-- <main id="main">
+      <div class="main__container container">
+        <div class="main__left">
+          <img
+            src="./resources/images/stmarys.JPG"
+            alt=""
+            class="main__left-img"
+          />
+        </div>
+        <div class="main__right">
+          <h1 class="section__title">St. Mary's Cathedral</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            recusandae delectus veritatis consectetur asperiores incidunt
+            corporis esse atque obcaecati accusamus.
+          </p>
+          <button class="main__login-btn"></button>
+        </div>
+      </div>
+    </main> -->
+
+    <section id="about">
+      <div class="about__container container">
+        <h1 class="section__title">About</h1>
+        <div class="about__content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, cumque?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            voluptates, cum nobis tempora aperiam quia incidunt ab
+            necessitatibus sequi obcaecati! Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Voluptatibus, placeat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="contact">
+      <div class="contact__container">
+
+      </div>
+    </section> -->
+
+    <footer id="footer" class="footer">
+      <div class="footer-content container">
+        <p>© 2022</p>
+
+        <p>
+          designed & developed by
+          <a href="https://kujur-consulting.com/" target="_blank"
+            >Kujur Consulting</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="./resources/js/app.js"></script>
+  </body>
+</html>
